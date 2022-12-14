@@ -1,0 +1,1 @@
+SELECT u."id", u."name", c."name" AS city FROM users AS u JOIN cities AS c ON c."name" ILIKE 'Rio de Janeiro';
